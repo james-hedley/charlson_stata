@@ -9,19 +9,9 @@
 
 {title:Syntax}
 
-{phang}{cmd:icdcode_flag} , {opt G:enerate(name} [{opt R:eplace} {opt D:iag_code_vars(varlist)} {opt I:cdcodes(string)} | {opt R:egex(string)}]
+{phang}{cmd:icdcode_flag} , {opt G:enerate(name)} [{opt R:eplace} {opt D:iag_code_vars(varlist)} {opt I:cdcodes(string)} | {opt R:egex(string)}]
 
-{phang}{cmd:charlson} , [{opt G:enerate(name} {opt R:eplace} {opt D:iag_code_vars(varlist)} {opt DROP_F:lags} {opt C:ategories} {opt CATEGORY_V:ar(name)}]
-{phang} 	{opt CATEGORY_VAR_R:eplace} {opt CATEGORY_B:reaks(numlist)} {opt CATEGORY_L:abels(string)} {opt CATEGORY_LABEL_N:ame} 
-{phang} 	{opt regex_ami(string)} {opt regex_chf(string)} {opt regex_pvd(string)} {opt regex_cva(string)} {opt regex_dementia(string)} {opt regex_pulmonary_disease(string)}
-{phang} 	{opt regex_ctd(string)} {opt regex_peptic_ulcer(string)} {opt regex_liver_disease(string)} {opt regex_diabetes(string)} {opt regex_diabetes_complications(string)} {opt regex_paraplegia(string)}
-{phang} 	{opt regex_renal_disease(string)} {opt regex_cancer(string)} {opt regex_metastatic_cancer(string)} {opt regex_severe_liver_disease(string)} {opt regex_hiv(string)}
-{phang} 	{opt icdcodes_ami(string)} {opt icdcodes_chf(string)} {opt icdcodes_pvd(string)} {opt icdcodes_cva(string)} {opt icdcodes_dementia(string)} {opt icdcodes_pulmonary_disease(string)}
-{phang} 	{opt icdcodes_ctd(string)} {opt icdcodes_peptic_ulcer(string)} {opt icdcodes_liver_disease(string)} {opt icdcodes_diabetes(string)} {opt icdcodes_diabetes_complications(string)} {opt icdcodes_paraplegia(string)}
-{phang} 	{opt icdcodes_renal_disease(string)} {opt icdcodes_cancer(string)} {opt icdcodes_metastatic_cancer(string)} {opt icdcodes_severe_liver_disease(string)} {opt icdcodes_hiv(string)}
-{phang} 	{opt weight_ami(string)} {opt weight_chf(string)} {opt weight_pvd(string)} {opt weight_cva(string)} {opt weight_dementia(string)} {opt weight_pulmonary_disease(string)}
-{phang} 	{opt weight_ctd(string)} {opt weight_peptic_ulcer(string)} {opt weight_liver_disease(string)} {opt weight_diabetes(string)} {opt weight_diabetes_complications(string)} {opt weight_paraplegia(string)}
-{phang} 	{opt weight_renal_disease(string)} {opt weight_cancer(string)} {opt weight_metastatic_cancer(string)} {opt weight_severe_liver_disease(string)} {opt weight_hiv(string)}
+{phang}{cmd:charlson} , [{opt G:enerate(name)} {opt R:eplace} {opt D:iag_code_vars(varlist)} {opt DROP_F:lags} {opt C:ategories} {opt CATEGORY_V:ar(name)}]	{opt CATEGORY_VAR_R:eplace} {opt CATEGORY_B:reaks(numlist)} {opt CATEGORY_L:abels(string)} {opt CATEGORY_LABEL_N:ame}  {opt regex_ami(string)} {opt regex_chf(string)} {opt regex_pvd(string)} {opt regex_cva(string)} {opt regex_dementia(string)} {opt regex_pulmonary_disease(string)} {opt regex_ctd(string)} {opt regex_peptic_ulcer(string)} {opt regex_liver_disease(string)} {opt regex_diabetes(string)} {opt regex_diabetes_complications(string)} {opt regex_paraplegia(string)} {opt regex_renal_disease(string)} {opt regex_cancer(string)} {opt regex_metastatic_cancer(string)} {opt regex_severe_liver_disease(string)} {opt regex_hiv(string)} {opt icdcodes_ami(string)} {opt icdcodes_chf(string)} {opt icdcodes_pvd(string)} {opt icdcodes_cva(string)} {opt icdcodes_dementia(string)} {opt icdcodes_pulmonary_disease(string)} {opt icdcodes_ctd(string)} {opt icdcodes_peptic_ulcer(string)} {opt icdcodes_liver_disease(string)} {opt icdcodes_diabetes(string)} {opt icdcodes_diabetes_complications(string)} {opt icdcodes_paraplegia(string)} {opt icdcodes_renal_disease(string)} {opt icdcodes_cancer(string)} {opt icdcodes_metastatic_cancer(string)} {opt icdcodes_severe_liver_disease(string)} {opt icdcodes_hiv(string)} {opt weight_ami(string)} {opt weight_chf(string)} {opt weight_pvd(string)} {opt weight_cva(string)} {opt weight_dementia(string)} {opt weight_pulmonary_disease(string)} {opt weight_ctd(string)} {opt weight_peptic_ulcer(string)} {opt weight_liver_disease(string)} {opt weight_diabetes(string)} {opt weight_diabetes_complications(string)} {opt weight_paraplegia(string)} {opt weight_renal_disease(string)} {opt weight_cancer(string)} {opt weight_metastatic_cancer(string)} {opt weight_severe_liver_disease(string)} {opt weight_hiv(string)}
 
 
 {title:Description}
