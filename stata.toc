@@ -1,0 +1,4 @@
+* stata.toc
+v 3
+d Calculate the Charlson Comorbidity Index based on ICD-10 diagnosis codes
+p charlson_stata

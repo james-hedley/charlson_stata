@@ -1,0 +1,6 @@
+* charlson_stata.pkg
+v 3
+d charlson_stata
+d   Calculate the Charlson Comorbidity Index based on ICD-10 diagnosis codes
+f charlson_stata.ado
+f charlson_stata.sthlp
